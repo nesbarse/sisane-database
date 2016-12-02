@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `sisane`.`paciente` (
   `email` VARCHAR(255) NULL,
   `telefono` VARCHAR(255) NULL,
   `id_servicio` INT NULL,
-  `fecha_salida` VARCHAR(45) NULL,
+  `fecha_salida` DATETIME NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_paciente_servicio1_idx` (`id_servicio` ASC),
   CONSTRAINT `fk_paciente_servicio`
