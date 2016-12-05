@@ -991,7 +991,7 @@ INSERT INTO `prioridad` (`id`, `descripcion`) VALUES
 (5, 'muy alta'),
 (6, 'preferente');
 
-NSERT INTO `tipodiagnostico` (`id`, `descripcion`) VALUES
+INSERT INTO `tipodiagnostico` (`id`, `descripcion`) VALUES
 (1, 'real'),
 (2, 'de riesgo'),
 (3, 'posible'),
