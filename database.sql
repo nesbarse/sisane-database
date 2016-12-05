@@ -1007,3 +1007,18 @@ NSERT INTO `tipodiagnostico` (`id`, `descripcion`) VALUES
 
 
 
+INSERT INTO `imagen` (`id`, `descripcion`, `fecha`, `ubicacion`, `id_tecnica`) VALUES
+(1, 'Imagen de tipo educativa', '2016-11-26 00:00:00', 'Cabeza', 3),
+(2, 'Imagen de tipo sanitaria', '2016-11-28 00:00:00', 'Troco', 1),
+(3, 'Imagen de tipo bucodental', '2016-11-13 00:00:00', 'Troco lateral', 2),
+(4, 'Imagen mostrando un corazon', '2016-11-16 00:00:00', 'Bucal', 4),
+(5, 'Imagen imitando un pulmon fumador', '2016-11-18 00:00:00', 'Maxilar', 5),
+(6, 'Imagen de voluntarios cruz roja', '2016-11-21 00:00:00', 'Craneal', 6),
+(7, 'Imagen de ambulancias de urgencia', '2016-11-20 00:00:00', 'Dorsal', 6),
+(8, 'Imagen de operacion de urgencia', '2016-11-14 00:00:00', 'Lumbar', 7),
+(9, 'Imagen de enfermo cronico', '2016-11-11 00:00:00', 'Lateral', 8),
+(10, 'Imagen mostrando el funcionamiento de una incubadora', '2016-11-30 00:00:00', 'Pierna derecha', 8);
+
+
+
+
