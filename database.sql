@@ -882,3 +882,18 @@ INSERT INTO `usuario` (`id`, `nombre`, `primerapellido`, `login`, `password`, `d
 (99, 'Vicente', 'López Sancho', 'viclósa', '20213934318D4EBBF43D1D4AAC2066105B023FE79A8AF275F85B79394233C891', 'Paseo de María Camila Bonet, nº 46', 'Barxeta', '46903', 'València', 'Spain', 'viclósa@outlook.es', '63879964', 3),
 (100, 'Sergio', 'Alpuente Delicado', 'seralde', '9226F5DF4F2F7889D5566583ADE6E02E1B03D4F8D7A4E72D2AB07E07F0C83AEB', 'Camino de Paco Moreno, nº 10', 'Benetússer', '46909', 'València', 'Spain', 'seralde@gmail.com', '63836938', 2),
 (101, 'Ricardo', 'Bonet López', 'ricboló', '126D549E747ABFBD7193E56CF95ABCAF717C73E098D845B5564FE8716E6940E0', 'Avenida de Tomas Martinez, nº 35', 'Andilla', '46540', 'València', 'Spain', 'ricboló@outlook.es', '61693371', 4);
+
+
+INSERT INTO `anticoagulante` (`id`, `descripcion`) VALUES
+(1, 'Inhibidores de la vitamina K'),
+(2, 'Inhibidores directos de trombina'),
+(3, 'Inhibidores directos del factor Xa'),
+(4, 'Anticoagulantes orales directos (ACODs)'),
+(5, 'Rivaroxaban'),
+(6, 'Apixaban'),
+(7, 'Edoxaban'),
+(8, 'lepirudina'),
+(9, 'argatrobán'),
+(10, 'deshirudina');
+
+
