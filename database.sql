@@ -897,3 +897,28 @@ INSERT INTO `anticoagulante` (`id`, `descripcion`) VALUES
 (10, 'deshirudina');
 
 
+INSERT INTO `tipomuestra` (`id`, `descripcion`) VALUES
+(1, 'sangre'),
+(2, 'heces'),
+(3, 'orina'),
+(4, 'esputo'),
+(5, 'punción'),
+(6, 'biopsia'),
+(7, 'semen'),
+(8, 'piel'),
+(9, 'mucosa'),
+(10, 'flujo vaginal');
+
+INSERT INTO `tecnica` (`id`, `descripcion`) VALUES
+(1, 'artroscopia'),
+(2, 'ortoscopía'),
+(3, 'gastroscopia'),
+(4, 'angiografía'),
+(5, 'ecografia'),
+(6, 'laparoscopia'),
+(7, 'mamografía'),
+(8, 'rayos x'),
+(9, 'urografía'),
+(10, 'resonancia magnética');
+
+
