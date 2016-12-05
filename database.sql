@@ -983,4 +983,13 @@ INSERT INTO `tipodocumento` (`id`, `descripcion`) VALUES
 (1, 'factura'),
 (2, 'informe de gastos');
 
+INSERT INTO `prioridad` (`id`, `descripcion`) VALUES
+(1, 'muy baja'),
+(2, 'baja'),
+(3, 'media'),
+(4, 'alta'),
+(5, 'muy alta'),
+(6, 'preferente');
+
+
 
