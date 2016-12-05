@@ -1003,7 +1003,10 @@ INSERT INTO `tipodiagnostico` (`id`, `descripcion`) VALUES
 (9, 'presuntivo'),
 (10, 'sindrómico'),
 (11, 'sintomático'),
-(12, 'cierto');
+(12, 'cierto'),
+(13, 'clínico'),
+(14, 'etiológico'),
+(15, 'anatómico');
 
 
 
