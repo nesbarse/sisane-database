@@ -991,5 +991,19 @@ INSERT INTO `prioridad` (`id`, `descripcion`) VALUES
 (5, 'muy alta'),
 (6, 'preferente');
 
+NSERT INTO `tipodiagnostico` (`id`, `descripcion`) VALUES
+(1, 'real'),
+(2, 'de riesgo'),
+(3, 'posible'),
+(4, 'de síndrome'),
+(5, 'diferencial'),
+(6, 'genérico'),
+(7, 'nosológico'),
+(8, 'patogenético'),
+(9, 'presuntivo'),
+(10, 'sindrómico'),
+(11, 'sintomático'),
+(12, 'cierto');
+
 
 
