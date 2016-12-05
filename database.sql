@@ -921,4 +921,44 @@ INSERT INTO `tecnica` (`id`, `descripcion`) VALUES
 (9, 'urografía'),
 (10, 'resonancia magnética');
 
+INSERT INTO `especialidad` (`id`, `descripcion`) VALUES
+(1, 'Anatomía patológica'),
+(2, 'Anestesiología y reanimación.'),
+(3, 'Cirugía general y del aparato digestivo.'),
+(4, 'Medicina familiar y comunitaria.'),
+(5, 'Medicina interna.'),
+(6, 'Neumología'),
+(7, 'Neurocirugía'),
+(8, 'Neurología'),
+(9, 'Obstetricia y ginecología.'),
+(10, 'Oftalmología'),
+(11, 'Otorrinolaringología'),
+(12, 'Pediatría'),
+(13, 'Psiquiatría'),
+(14, 'Traumatología'),
+(15, 'Urología'),
+(16, 'Alergóloga'),
+(17, 'Inmunología'),
+(18, 'Nefrología'),
+(19, 'Neurofisiología'),
+(20, 'Reumatología'),
+(21, 'Microbiología');
 
+
+INSERT INTO `servicio` (`id`, `descripcion`) VALUES
+(1, 'Anatomía'),
+(2, 'Anestesiología y reanimación'),
+(3, 'Cirugía general'),
+(4, 'Medicina familiar'),
+(5, 'Medicina interna'),
+(6, 'Neumología'),
+(7, 'Neurocirugía'),
+(8, 'Neurología'),
+(9, 'Obstetricia y ginecología.'),
+(10, 'Oftalmología'),
+(11, 'Otorrinolaringología'),
+(12, 'Pediatría'),
+(13, 'Psiquiatría'),
+(14, 'Traumatología'),
+(15, 'Urología'),
+(16, 'Digestivo');
