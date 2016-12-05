@@ -962,3 +962,18 @@ INSERT INTO `servicio` (`id`, `descripcion`) VALUES
 (14, 'Traumatología'),
 (15, 'Urología'),
 (16, 'Digestivo');
+
+
+INSERT INTO `tipo` (`id`, `descripcion`) VALUES
+(1, 'urgencias'),
+(2, 'consultas externas'),
+(3, 'hospitalización'),
+(4, 'atención quirúrgica'),
+(5, 'atención obstétrica'),
+(6, 'hospitalización de día'),
+(7, 'atención al dolor'),
+(8, 'seguimiento hospitalario de un paciente ingresado'),
+(9, 'consulta de seguimiento programada'),
+(10, 'administración de tratamiento'),
+(11, 'cura de urgencias'),
+(12, 'monitorización');
