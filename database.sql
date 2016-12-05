@@ -977,3 +977,10 @@ INSERT INTO `tipo` (`id`, `descripcion`) VALUES
 (10, 'administración de tratamiento'),
 (11, 'cura de urgencias'),
 (12, 'monitorización');
+
+
+INSERT INTO `tipodocumento` (`id`, `descripcion`) VALUES
+(1, 'factura'),
+(2, 'informe de gastos');
+
+
