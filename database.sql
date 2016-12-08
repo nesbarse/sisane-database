@@ -1024,5 +1024,13 @@ INSERT INTO `imagen` (`id`, `descripcion`, `fecha`, `ubicacion`, `id_tecnica`) V
 (10, 'Imagen mostrando el funcionamiento de una incubadora', '2016-11-30 00:00:00', 'Pierna derecha', 8);
 
 
+INSERT INTO `zonaimagen` (`id`, `id_zona`, `id_imagen`) VALUES
+(1, 1, 5),
+(2, 8, 1),
+(3, 7, 2),
+(4, 8, 9),
+(5, 9, 8);
+
+
 
 
