@@ -1048,4 +1048,20 @@ INSERT INTO `analitica` (`id`, `informe`, `fecha_peticion`, `importe`, `id_tipom
 (12, 'Cras ornare ac urna ut condimentum. Aliquam ut ipsum ullamcorper, accumsan arcu a, rhoncus metus.', '2016-12-04 00:00:00', 322, 2, 5, 5);
 
 
+INSERT INTO `documento` (`id`, `descripcion`, `fecha`, `id_tipodocumento`) VALUES
+(1, 'Estancia hospitalaria', '2016-12-13 00:00:00', 1),
+(2, 'Ingreso', '2016-12-05 00:00:00', 2),
+(3, 'Cargo por consulta', '2016-12-05 00:00:00', 1),
+(4, 'Proin ac vestibulum dui. ', '2016-08-21 00:00:00', 2),
+(5, 'Integer imperdiet, nisi at fringilla porta, diam augue tempus felis, eu dictum odio arcu elementum felis.', '2016-12-12 00:00:00', 1),
+(6, 'Cras ornare ac urna ut condimentum. Aliquam ut ipsum ullamcorper, accumsan arcu a, rhoncus metus.', '2016-12-19 00:00:00', 1),
+(7, 'Aliquam sit amet congue ligula. In metus tellus, interdum id lacus at, luctus aliquet neque. ', '2016-12-05 00:00:00', 2),
+(8, 'rhoncus metus', '2016-12-28 00:00:00', 1),
+(9, 'id purus mauris. Aliquam sit amet', '2016-12-12 00:00:00', 1),
+(10, ' ac urna ut condimentum', '2016-12-05 00:00:00', 1),
+(11, 'elementum metus erat. Sed augue risus', '2016-12-20 00:00:00', NULL),
+(12, 'Integer a vulparcu, rhoncus metus.', '2016-12-06 00:00:00', 1);
+
+
+
 
