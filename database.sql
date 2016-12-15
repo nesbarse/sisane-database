@@ -1065,3 +1065,25 @@ INSERT INTO `documento` (`id`, `descripcion`, `fecha`, `id_tipodocumento`) VALUE
 
 
 
+INSERT INTO `medico` (`id`, `id_servicio`, `id_especialidad`) VALUES
+(1, 3, 10),
+(2, 2, 12),
+(3, 14, 8),
+(4, 8, 19),
+(5, 4, 17),
+(6, 6, 15),
+(7, 6, 10),
+(8, 4, 11),
+(9, 16, 16),
+(10, 3, 5),
+(11, 14, 21),
+(12, 4, 3),
+(13, 6, 9),
+(14, 16, 3),
+(15, 7, 3),
+(16, 7, 2),
+(17, 15, 8);
+
+
+
+
