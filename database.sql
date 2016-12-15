@@ -1086,4 +1086,19 @@ INSERT INTO `medico` (`id`, `id_servicio`, `id_especialidad`) VALUES
 
 
 
+INSERT INTO `paciente` (`id`, `dni`, `name`, `primer_apellido`, `segundo_apellido`, `login`, `password`, `estado`, `direccion`, `ciudad`, `codigopostal`, `provincia`, `pais`, `email`, `telefono`, `id_servicio`, `fecha_salida`) VALUES
+(1, '5345345345', 'Jose', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, '2016-12-04 00:00:00'),
+(2, '5345345777', 'Antonia', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, '2016-12-04 00:00:00'),
+(3, '534867867', 'Juana', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3, '2016-12-04 00:00:00'),
+(4, '535357457', 'Pepa', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, '2016-12-04 00:00:00'),
+(5, '5378678678', 'Rodrigo', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, '2016-12-04 00:00:00'),
+(6, '53453453458', 'Ana', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, '2016-12-04 00:00:00'),
+(7, '5345345345', 'Minerva', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 12, '2016-12-04 00:00:00'),
+(8, '53453453453534', 'Rosario', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 12, '2016-12-04 00:00:00'),
+(9, '5345345345345', 'Amparo', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 12, '2016-12-04 00:00:00'),
+(10, '5347789789', 'Adolfo', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 12, '2016-12-04 00:00:00'),
+(11, '534546456', 'Mariano', 'Rodríguez', 'Rodríguez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 12, '2016-12-04 00:00:00');
+
+
+
 
