@@ -480,7 +480,7 @@ COLLATE = utf8_unicode_ci;
 DROP TABLE IF EXISTS `sisane`.`zonaimagen` ;
 
 CREATE TABLE IF NOT EXISTS `sisane`.`zonaimagen` (
-  `id` INT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `id_zona` INT NULL,
   `id_imagen` INT NULL,
   INDEX `fk_zona_imagen_imagen1_idx` (`id_imagen` ASC),
